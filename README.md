@@ -208,3 +208,25 @@ You should now be able to use your Typing Test application locally. If you encou
 - <b>Navbar with Logo:</b>           Includes a visually appealing navbar featuring a logo and application name, enhancing the overall design.
 - <b>Favicon Integration:</b>        A custom favicon adds a polished and professional touch to the browser tab.
 
+---
+
+<h4>Screenshots & Demo</h4>
+
+<br>
+
+![Screenshot 2024-10-10 095629](https://github.com/user-attachments/assets/7302e653-b426-4d51-8556-254136df49b2)
+
+<br>
+
+![Screenshot 2024-10-10 095733](https://github.com/user-attachments/assets/52a78f24-95e0-47b0-808e-9dca12b18f9d)
+
+<br>
+
+![Screenshot 2024-10-10 095817](https://github.com/user-attachments/assets/ec7242ed-875a-4229-b0f5-819a2e7cfcd6)
+
+<br>
+
+https://github.com/user-attachments/assets/79c40dc2-b6b7-465b-bc75-1535ff5652e5
+
+<br>
+
