@@ -95,15 +95,15 @@ You should now be able to use your Typing Test application locally. If you encou
 
 ---
 
-<h3>Technologies Used</h3>
+<h3>Technologies Used: </h3>
 
-<b>Node.js:</b>    Backend server runtime.
-<b>Express.js:</b> Web framework for Node.js.
-<b>MySQL:</b>      Database for storing high scores.
-<b>HTML5:</b>      Structure of the web application.
-<b>CSS3:</b>       Styling and layout.
-<b>JavaScript:</b> Frontend logic and interactivity.
-<b>Boxicons:</b>   Icon library for visual enhancements.
+- <b>Node.js:</b>    Backend server runtime.
+- <b>Express.js:</b> Web framework for Node.js.
+- <b>MySQL:</b>      Database for storing high scores.
+- <b>HTML5:</b>      Structure of the web application.
+- <b>CSS3:</b>       Styling and layout.
+- <b>JavaScript:</b> Frontend logic and interactivity.
+- <b>Boxicons:</b>   Icon library for visual enhancements.
 
 ---
 
