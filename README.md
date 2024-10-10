@@ -4,11 +4,11 @@ The Typing Test application is a web-based tool designed to enhance users' typin
 
 Additionally, the application provides a result verdict after each test, summarizing the user's performance and highlighting areas for improvement. The backend server, built with Node.js and Express, connects to a MySQL database to store and retrieve users' highest WPM scores. With an intuitive interface featuring real-time feedback and the ability to restart tests, the Typing Test application aims to provide an effective platform for individuals looking to improve their typing efficiency and overall keyboard skills.
 
-To download and run your Typing Test application files from your GitHub repository on your local machine, follow these steps:
-
 ---
 
-Step 1: Clone the Repository
+<b>To download and run your Typing Test application files from your GitHub repository on your local machine, follow these steps:</b>
+
+<b>Step 1: Clone the Repository</b>
 1) Open Terminal (Command Prompt or Git Bash):
   - On Windows, you can use Command Prompt or Git Bash.
   - On macOS or Linux, use the Terminal.
@@ -28,7 +28,7 @@ Replace ```your_username``` with your GitHub username.
 
 <br>
 
-Step 2: Install Dependencies
+<b>Step 2: Install Dependencies</b>
 1) Navigate to the Cloned Directory:
 ```bash
 cd Typing_Speed_Test
@@ -42,7 +42,7 @@ npm install
 
 <br> 
 
-Step 3: Set Up the Database
+<b>Step 3: Set Up the Database</b>
 1) Set Up MySQL: Ensure you have MySQL installed and running on your machine.
 
 2) Create a Database: Use a MySQL client (like MySQL Workbench or command line) to create a database for your application.
@@ -56,7 +56,7 @@ SOURCE path/to/Typing_Speed_Test/database/schema.sql;
 
 ---
 
-Step 4: Run the Application
+<b>Step 4: Run the Application</b>
 1) Start the Server: In your terminal, run the following command to start the backend server:
 ```bash
 node backend/server.js
