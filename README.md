@@ -8,6 +8,8 @@ Additionally, the application provides a result verdict after each test, summari
 
 <b>To download and run your Typing Test application files from your GitHub repository on your local machine, follow these steps:</b>
 
+<br>
+
 <b>Step 1: Clone the Repository</b>
 1) Open Terminal (Command Prompt or Git Bash):
   - On Windows, you can use Command Prompt or Git Bash.
@@ -64,7 +66,11 @@ node backend/server.js
 Make sure you're in the project directory when running this command.
 
 2) Open the Frontend: Open your web browser and navigate to:
+   
 ```arduino
 http://localhost:3000
 ```
 Replace ```3000``` with the port number specified in your ```server.js``` file if it’s different.
+
+<b>Conclusion</b>
+You should now be able to use your Typing Test application locally. If you encounter any issues, ensure that all dependencies are installed correctly, and your MySQL database is set up as required.
