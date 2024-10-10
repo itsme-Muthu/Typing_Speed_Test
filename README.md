@@ -200,7 +200,7 @@ You should now be able to use your Typing Test application locally. If you encou
 - <b>CPM (Characters Per Minute):</b>Tracks the number of characters typed per minute, excluding mistakes.
 - <b>Accuracy:</b>                   Determines the percentage of correctly typed characters out of the total characters typed, reflecting typing precision.
 - <b>Mistakes:</b>                   Counts the number of errors made during the typing session, aiding in identifying areas for improvement.
-- <b>Remaining Time:</b>             Remaining Time: Displays the countdown timer indicating how much time is left in the current typing session, with the color changing to red in the last 10 seconds to alert users.
+- <b>Remaining Time:</b>             Displays the countdown timer indicating how much time is left in the current typing session, with the color changing to red in the last 10 seconds to alert users.
 - <b>Highest WPM Tracking:</b>       Stores and displays the user's highest WPM score across tests.
 - <b>Result Verdict:</b>             Provides personalized feedback based on performance metrics, offering insights and suggestions to guide users in improving their typing skills.
 - <b>Random Paragraph Selection:</b> Dynamically selects a random paragraph from a pool of 50 different paragraphs for each test, ensuring variety in practice.
