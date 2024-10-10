@@ -113,7 +113,7 @@ You should now be able to use your Typing Test application locally. If you encou
 
 - <b>Purpose:</b> Manages the backend of the application, handling HTTP requests and MySQL interactions, specifically for fetching and updating the highest WPM data.<br>
 - <b>Features:</b>
-       - Sets up an Express server to handle routing.
+  - Sets up an Express server to handle routing.
 - Connects to a MySQL database to store and retrieve high scores.
 - Defines API endpoints:
 - GET /api/highest-wpm: Fetches the highest WPM from the database.
