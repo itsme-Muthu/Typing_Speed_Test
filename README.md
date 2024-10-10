@@ -8,8 +8,8 @@ To download and run your Typing Test application files from your GitHub reposito
 
 Step 1: Clone the Repository
 1) Open Terminal (Command Prompt or Git Bash):
-  -   On Windows, you can use Command Prompt or Git Bash.
-  -   On macOS or Linux, use the Terminal.
+  - On Windows, you can use Command Prompt or Git Bash.
+  - On macOS or Linux, use the Terminal.
   
 2) Navigate to the Desired Directory: Use the cd command to change to the directory where you want to clone your repository.
 ```
@@ -21,3 +21,9 @@ cd path/to/your/directory
 git clone https://github.com/your_username/Typing_Speed_Test.git
 ```
 Replace ```your_username``` with your GitHub username.
+
+Step 2: Install Dependencies
+1) Navigate to the Cloned Directory:
+```bash
+cd Typing_Speed_Test
+```
