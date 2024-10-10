@@ -8,8 +8,8 @@ To download and run your Typing Test application files from your GitHub reposito
 
 Step 1: Clone the Repository
 1) Open Terminal (Command Prompt or Git Bash):
-  - On Windows, you can use Command Prompt or Git Bash.
-  - On macOS or Linux, use the Terminal.
+  -   On Windows, you can use Command Prompt or Git Bash.
+  -   On macOS or Linux, use the Terminal.
   
 2) Navigate to the Desired Directory: Use the cd command to change to the directory where you want to clone your repository.
 ```
