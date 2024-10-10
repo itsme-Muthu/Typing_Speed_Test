@@ -109,7 +109,7 @@ You should now be able to use your Typing Test application locally. If you encou
 
 <h3>Project Structure and File Features</h3>
 
-<h4>1. backend/server.js</h4>
+<h4>1. backend/server.js : </h4>
 - <b>Purpose:</b> Manages the backend of the application, handling HTTP requests and MySQL interactions, specifically for fetching and updating the highest WPM data.
 - <b>Features:</b>
        - Sets up an Express server to handle routing.
