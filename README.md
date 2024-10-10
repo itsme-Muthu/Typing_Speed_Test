@@ -6,11 +6,15 @@ Additionally, the application provides a result verdict after each test, summari
 
 To download and run your Typing Test application files from your GitHub repository on your local machine, follow these steps:
 
+---
+
 Step 1: Clone the Repository
 1) Open Terminal (Command Prompt or Git Bash):
   - On Windows, you can use Command Prompt or Git Bash.
   - On macOS or Linux, use the Terminal.
-  
+
+<br>
+
 2) Navigate to the Desired Directory: Use the cd command to change to the directory where you want to clone your repository.
 ```bash
 cd path/to/your/directory
@@ -21,6 +25,8 @@ cd path/to/your/directory
 git clone https://github.com/your_username/Typing_Speed_Test.git
 ```
 Replace ```your_username``` with your GitHub username.
+
+<br>
 
 Step 2: Install Dependencies
 1) Navigate to the Cloned Directory:
@@ -34,6 +40,8 @@ cd Typing_Speed_Test
 npm install
 ```
 
+<br> 
+
 Step 3: Set Up the Database
 1) Set Up MySQL: Ensure you have MySQL installed and running on your machine.
 
@@ -45,6 +53,8 @@ CREATE DATABASE test;
 ```SQL
 SOURCE path/to/Typing_Speed_Test/database/schema.sql;
 ```
+
+---
 
 Step 4: Run the Application
 1) Start the Server: In your terminal, run the following command to start the backend server:
