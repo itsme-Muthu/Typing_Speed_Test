@@ -56,9 +56,22 @@ CREATE DATABASE test;
 SOURCE path/to/Typing_Speed_Test/database/schema.sql;
 ```
 
----
+<br>
 
-<b>Step 4: Run the Application</b>
+<b>Step 4: Configure Database Connection</b>
+1) Update Database Credentials: In ```backend/server.js```, ensure the MySQL connection settings (```host```, ```user```, ```password```, ```database```) match your local MySQL setup.
+```javascript
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'user_', 
+    password: 'password_', 
+    database: 'typing_test' 
+});
+```
+
+<br>
+
+<b>Step 5: Run the Application</b>
 1) Start the Server: In your terminal, run the following command to start the backend server:
 ```bash
 node backend/server.js
@@ -72,5 +85,13 @@ http://localhost:3000
 ```
 Replace ```3000``` with the port number specified in your ```server.js``` file if it’s different.
 
+<b>Step 6: Start Typing!</b>
+- Begin a typing test by following the on-screen instructions.
+- After completing the test, view your metrics and see if you achieved a new highest WPM.
+- Use the "Try Again" button to reset and start a new test session.
+
 <b>Conclusion</b>
 You should now be able to use your Typing Test application locally. If you encounter any issues, ensure that all dependencies are installed correctly, and your MySQL database is set up as required.
+
+
+
