@@ -111,11 +111,100 @@ You should now be able to use your Typing Test application locally. If you encou
 
 <h4>1. backend/server.js : </h4>
 
-- <b>Purpose:</b> Manages the backend of the application, handling HTTP requests and MySQL interactions, specifically for fetching and updating the highest WPM data.<br>
+- <b>Purpose:</b> Manages the backend of the application, handling HTTP requests and MySQL interactions, specifically for fetching and updating the highest WPM data.
 - <b>Features:</b>
   - Sets up an Express server to handle routing.
   - Connects to a MySQL database to store and retrieve high scores.
   - Defines API endpoints:
     - ```GET /api/highest-wpm```: Fetches the highest WPM from the database.
     - ```POST /api/highest-wpm```: Updates the highest WPM in the database when a new record is achieved.
-    - Serves static frontend files to the client.
+  - Serves static frontend files to the client.
+
+<br>
+
+<h4>2. frontend/index.html</h4>
+
+- <b>Purpose:</b> The main HTML document for the Typing Test application.
+- <b>Features:</b>
+  - Structures the user interface, including the input field for typing, display areas for metrics (WPM, CPM, mistakes, remaining time), and the highest WPM.
+  - Includes links to the CSS stylesheet and JavaScript files. 
+  - Contains a header with a logo and application title.
+  - Provides a "Try Again" button to reset the test.
+
+<br>
+
+<h4>3. frontend/style.css</h4>
+
+- <b>Purpose:</b> Styles the HTML elements to ensure a visually appealing and responsive design.
+- <b>Features:</b>
+  - Resets default browser styles for consistency.
+  - Styles the layout, colors, fonts, and responsive behavior of the application.
+  - Highlights active, correct, and incorrect typed characters with distinct colors.
+  - Styles the header and navbar for a polished look.
+  - Includes animations for visual feedback during typing.
+
+<br>
+
+<h4>4. frontend/js/script.js</h4>
+
+- <b>Purpose:</b> Implements the core functionality of the Typing Test, managing user interactions, timing, and performance metrics.
+- <b>Features:</b>
+  - Handles user input and tracks typing progress.
+  - Manages the countdown timer and calculates metrics like WPM, CPM, accuracy, and RAW WPM.
+  - Fetches the highest WPM from the backend and updates it when a new high score is achieved.
+  - Provides real-time feedback and displays a result verdict after each test.
+  - Allows users to reset the test and start a new session.
+
+<br>
+
+<h4>5. frontend/js/paragraph.js</h4>
+
+- <b>Purpose:</b> Stores an array of sample paragraphs used for the typing tests.
+- <b>Features:</b>
+  - Contains 50 predefined paragraphs to provide varied typing content.
+  - Randomly selects a paragraph for each test session to ensure a different experience every time.
+
+<br>
+
+<h4>6. database/schema.sql</h4>
+
+- <b>Purpose:</b> Defines the database schema for storing high scores.
+- <b>Features:</b>
+  - Creates the typing_test database.
+  - Defines the highscores table with columns for id and highest_wpm.
+  - Inserts an initial record with a highest_wpm of 0 to ensure there is always a baseline score.
+ 
+<br>
+
+<h4>7. frontend/typing_test_logo.ico</h4>
+
+- <b>Purpose:</b> The favicon for the Typing Test application.
+- <b>Features:</b>
+  - Displays a small icon in the browser tab, enhancing the application's branding and making it easily recognizable.
+
+<br>
+
+<h4>8. package.json</h4>
+
+- <b>Purpose:</b> Manages project dependencies and scripts.
+- <b>Features:</b>
+  - Lists the necessary Node.js packages required for the backend (e.g., Express, MySQL2).
+  - Defines scripts to start the server and manage other development tasks.
+
+---
+
+<h4>Key Metrics</h4>
+
+- <b>Raw WPM (Words Per Minute):</b> Measures the total number of words typed, disregarding mistakes, providing a basic speed metric.
+- <b>WPM (Words Per Minute):</b>     Calculates the number of correctly typed words per minute, adjusted for accuracy.
+- <b>CPM (Characters Per Minute):</b>Tracks the number of characters typed per minute, excluding mistakes.
+- <b>Accuracy:</b>                   Determines the percentage of correctly typed characters out of the total characters typed, reflecting typing precision.
+- <b>Mistakes:</b>                   Counts the number of errors made during the typing session, aiding in identifying areas for improvement.
+- <b>Remaining Time:</b>             Remaining Time: Displays the countdown timer indicating how much time is left in the current typing session, with the color changing to red in the last 10 seconds to alert users.
+- <b>Highest WPM Tracking:</b>       Stores and displays the user's highest WPM score across tests.
+- <b>Result Verdict:</b>             Provides personalized feedback based on performance metrics, offering insights and suggestions to guide users in improving their typing skills.
+- <b>Random Paragraph Selection:</b> Dynamically selects a random paragraph from a pool of 50 different paragraphs for each test, ensuring variety in practice.
+- <b>User-Friendly Interface:</b>    The application has a clean and intuitive interface, designed to be easily navigable for users of all skill levels.
+- <b>Navbar with Logo:</b>           Includes a visually appealing navbar featuring a logo and application name, enhancing the overall design.
+- <b>Favicon Integration:</b>        A custom favicon adds a polished and professional touch to the browser tab.
+
