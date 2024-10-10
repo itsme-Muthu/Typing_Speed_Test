@@ -6,7 +6,7 @@ Additionally, the application provides a result verdict after each test, summari
 
 ---
 
-<b>To download and run your Typing Test application files from your GitHub repository on your local machine, follow these steps:</b>
+<h3>To download and run your Typing Test application files from your GitHub repository on your local machine, follow these steps:</h3>
 
 <br>
 
@@ -93,5 +93,28 @@ Replace ```3000``` with the port number specified in your ```server.js``` file i
 <b>Conclusion</b>
 You should now be able to use your Typing Test application locally. If you encounter any issues, ensure that all dependencies are installed correctly, and your MySQL database is set up as required.
 
+---
 
+<h3>Technologies Used</h3>
 
+<b>Node.js:</b>    Backend server runtime.
+<b>Express.js:</b> Web framework for Node.js.
+<b>MySQL:</b>      Database for storing high scores.
+<b>HTML5:</b>      Structure of the web application.
+<b>CSS3:</b>       Styling and layout.
+<b>JavaScript:</b> Frontend logic and interactivity.
+<b>Boxicons:</b>   Icon library for visual enhancements.
+
+---
+
+<h3>Project Structure and File Features</h3>
+
+<h4>1. backend/server.js</h4>
+- <b>Purpose:</b> Manages the backend of the application, handling HTTP requests and MySQL interactions, specifically for fetching and updating the highest WPM data.
+- <b>Features:</b>
+       - Sets up an Express server to handle routing.
+Connects to a MySQL database to store and retrieve high scores.
+Defines API endpoints:
+GET /api/highest-wpm: Fetches the highest WPM from the database.
+POST /api/highest-wpm: Updates the highest WPM in the database when a new record is achieved.
+Serves static frontend files to the client.
